@@ -11,6 +11,7 @@
   "scripts": {
     "test": "tap test/*.js"
   },
+  "dependencies": {},
   "devDependencies": {
     "tap": "*",
     "level": "~0.10.0",
@@ -33,7 +34,7 @@
   ],
   "author": {
     "name": "Wayla",
-    "email": data@wayla.com",
+    "email": "data@wayla.com",
     "url": "http://wayla.com"
   },
   "contributors": {
