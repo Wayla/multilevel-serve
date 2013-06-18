@@ -5,6 +5,8 @@ Expose a [level-serve](https://github.com/wayla/level-serve) instance over the
 network by smuggling them into a db object, using multilevel as a transport
 and the extracting them back again on the client.
 
+[![build status](https://secure.travis-ci.org/Wayla/multilevel-serve.png)](http://travis-ci.org/Wayla/multilevel-serve)
+
 ## Usage
 
 This assumes that you're already using
