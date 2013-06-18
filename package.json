@@ -1,0 +1,44 @@
+{
+  "name": "multilevel-serve",
+  "description": "Use level-serve over multilevel",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Wayla/multilevel-serve.git"
+  },
+  "homepage": "https://github.com/Wayla/multilevel-serve",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "level": "~0.10.0",
+    "multilevel": "~4.0.5",
+    "level-manifest": "~1.1.1",
+    "level-serve": "~1.1.0",
+    "hyperquest": "~0.1.6"
+  },
+  "keywords": [
+    "level-serve",
+    "levelup",
+    "level",
+    "leveldb",
+    "serve",
+    "multilevel",
+    "rpc",
+    "files",
+    "image",
+    "static"
+  ],
+  "author": {
+    "name": "Wayla",
+    "email": data@wayla.com",
+    "url": "http://wayla.com"
+  },
+  "contributors": {
+    "Wayla": "data@wayla.com",
+    "Julian Gruber": "julian@wayla.com"
+  },
+  "license": "MIT"
+}
