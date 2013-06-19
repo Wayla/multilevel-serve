@@ -83,6 +83,10 @@ var getServer = require('multilevel-serve');
 
 Get the `server` back from the `db` object.
 
+#### var manifest = getServer.manifest
+
+If you don't have access to a manifest, you can use this one.
+
 ## Installation
 
 With [npm](http://npmjs.org) do

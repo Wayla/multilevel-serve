@@ -40,3 +40,31 @@ function addServer (db, server) {
 
   return db;
 }
+
+/**
+ * Take this from example/manifest.json.
+ */
+
+module.exports.manifest = {
+  "methods": {
+    "createReadStream": { "type": "readable" },
+    "readStream": { "type": "readable" },
+    "createValueStream": { "type": "readable" },
+    "valueStream": { "type": "readable" },
+    "createKeyStream": { "type": "readable" },
+    "keyStream": { "type": "readable" },
+    "createWriteStream": { "type": "writable" },
+    "writeStream": { "type": "writable" },
+    "isOpen": { "type": "sync" },
+    "isClosed": { "type": "sync" },
+    "put": { "type": "async" },
+    "get": { "type": "async" },
+    "del": { "type": "async" },
+    "batch": { "type": "async" },
+    "approximateSize": { "type": "async" },
+    "__serve__handle": { "type": "sync" },
+    "__serve__createWriteStream": { "type": "writable" },
+    "__serve__store": { "type": "async" },
+    "__serve__url": { "type": "sync" }
+  }
+};
