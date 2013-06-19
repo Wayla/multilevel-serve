@@ -1,7 +1,7 @@
 {
   "name": "multilevel-serve",
   "description": "Use level-serve over multilevel",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/Wayla/multilevel-serve.git"
